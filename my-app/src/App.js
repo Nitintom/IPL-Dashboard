@@ -2,7 +2,7 @@ import './App.css'
 import {Route, Routes} from 'react-router-dom'
 import Home from './components/Home'
 import TeamMatches from './components/TeamMatches'
-import NotFound from './components/NotFound'
+// import NotFound from './components/NotFound'
 
 function App() {
  
@@ -12,7 +12,7 @@ function App() {
     
     <Route  path="/" element={<Home/>} />
     <Route  path="/team-matches/:id" element={<TeamMatches/>} />
-    <Route element={<NotFound/>} />
+    {/* <Route element={<NotFound/>} /> */}
   </Routes>
   );
 }
